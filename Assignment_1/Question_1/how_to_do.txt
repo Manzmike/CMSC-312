@@ -1,0 +1,8 @@
+shared memeory
+
+program 1.a program 1.b program1.c
+
+in each of the 3 code files you'll need one area to save the string and one area to save the int
+
+
+Need to inlcude shm and a shared memeory detach

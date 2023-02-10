@@ -1,0 +1,22 @@
+Review the programs (spock.c and kirk.c). 
+Answer (or discuss) questions listed below: 
+a) Discuss and evaluate what happens when you're running both in separate 
+windows and you kill one or the other.     (3)
+When you end up running both spock.c and kirk.c in two diffrent windows it happens that
+they end up working well. When a message is went a message is outputted. In the apsect of
+killing one nothing happens. The reason because of this is because kirk.c is a message queue
+where a message is sent it waits till it can be dispursed. 
+
+
+b) Discuss what happens (and why) when you run two copies of kirk. (3) 
+When two copies of kirk run it ends up happening that there is no data being 
+subcriped towards and/or published to the output screen. 
+The reason why this is happening is because with kirk it is missing a outreach 
+of subscribed data. It sends this data to a message queue where to data is waiting
+to be dispursed to the spock/ 
+
+
+
+c) Discuss what happens (and why) when your run two copies of spock.(3)
+When two itterations of spock are running nothing happens. In the situation 
+of the the spock it needs a the file of kirk.c to be subcribed to to output data. 

@@ -1,0 +1,9 @@
+killall -u username 
+Description: Kills all the processes that you are running on the server
+
+ps -u username 
+Description: Shows all the processes running on the server 
+
+
+kill -9 id
+Description: Kills the process of a dedicate proceess 
